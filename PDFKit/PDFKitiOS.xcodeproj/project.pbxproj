@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42AF880D20EA8A0B00B04DC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AF880C20EA8A0B00B04DC9 /* AppDelegate.swift */; };
+		42AF880F20EA8A0B00B04DC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AF880E20EA8A0B00B04DC9 /* ViewController.swift */; };
+		42AF881220EA8A0B00B04DC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AF881020EA8A0B00B04DC9 /* Main.storyboard */; };
+		42AF881420EA8A0C00B04DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42AF881320EA8A0C00B04DC9 /* Assets.xcassets */; };
+		42AF881720EA8A0C00B04DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AF881520EA8A0C00B04DC9 /* LaunchScreen.storyboard */; };
+		42AF882A20EA8A5800B04DC9 /* beyond-code.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42AF881F20EA8A5800B04DC9 /* beyond-code.pdf */; };
+		42AF882B20EA8A5800B04DC9 /* practical-ios-10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42AF882020EA8A5800B04DC9 /* practical-ios-10.pdf */; };
+		42AF882C20EA8A5800B04DC9 /* hacking-with-swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42AF882120EA8A5800B04DC9 /* hacking-with-swift.pdf */; };
+		42AF882D20EA8A5800B04DC9 /* practical-ios-11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42AF882220EA8A5800B04DC9 /* practical-ios-11.pdf */; };
+		42AF882E20EA8A5800B04DC9 /* pro-swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42AF882320EA8A5800B04DC9 /* pro-swift.pdf */; };
+		42AF882F20EA8A5800B04DC9 /* hacking-with-macos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42AF882420EA8A5800B04DC9 /* hacking-with-macos.pdf */; };
+		42AF883020EA8A5800B04DC9 /* server-side-swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42AF882520EA8A5800B04DC9 /* server-side-swift.pdf */; };
+		42AF883120EA8A5800B04DC9 /* objective-c-for-swift-developers.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42AF882620EA8A5800B04DC9 /* objective-c-for-swift-developers.pdf */; };
+		42AF883220EA8A5800B04DC9 /* hacking-with-tvos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42AF882720EA8A5800B04DC9 /* hacking-with-tvos.pdf */; };
+		42AF883320EA8A5800B04DC9 /* swift-coding-challenges.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42AF882820EA8A5800B04DC9 /* swift-coding-challenges.pdf */; };
+		42AF883420EA8A5800B04DC9 /* hacking-with-watchos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42AF882920EA8A5800B04DC9 /* hacking-with-watchos.pdf */; };
+		42AF883620EA8B6C00B04DC9 /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AF883520EA8B6C00B04DC9 /* FilesViewController.swift */; };
+		42AF883820EABB3F00B04DC9 /* SampleWaterMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AF883720EABB3F00B04DC9 /* SampleWaterMark.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42AF880920EA8A0B00B04DC9 /* PDFKitiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFKitiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AF880C20EA8A0B00B04DC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42AF880E20EA8A0B00B04DC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42AF881120EA8A0B00B04DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42AF881320EA8A0C00B04DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42AF881620EA8A0C00B04DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42AF881820EA8A0C00B04DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AF881F20EA8A5800B04DC9 /* beyond-code.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "beyond-code.pdf"; sourceTree = "<group>"; };
+		42AF882020EA8A5800B04DC9 /* practical-ios-10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "practical-ios-10.pdf"; sourceTree = "<group>"; };
+		42AF882120EA8A5800B04DC9 /* hacking-with-swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "hacking-with-swift.pdf"; sourceTree = "<group>"; };
+		42AF882220EA8A5800B04DC9 /* practical-ios-11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "practical-ios-11.pdf"; sourceTree = "<group>"; };
+		42AF882320EA8A5800B04DC9 /* pro-swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "pro-swift.pdf"; sourceTree = "<group>"; };
+		42AF882420EA8A5800B04DC9 /* hacking-with-macos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "hacking-with-macos.pdf"; sourceTree = "<group>"; };
+		42AF882520EA8A5800B04DC9 /* server-side-swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "server-side-swift.pdf"; sourceTree = "<group>"; };
+		42AF882620EA8A5800B04DC9 /* objective-c-for-swift-developers.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "objective-c-for-swift-developers.pdf"; sourceTree = "<group>"; };
+		42AF882720EA8A5800B04DC9 /* hacking-with-tvos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "hacking-with-tvos.pdf"; sourceTree = "<group>"; };
+		42AF882820EA8A5800B04DC9 /* swift-coding-challenges.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "swift-coding-challenges.pdf"; sourceTree = "<group>"; };
+		42AF882920EA8A5800B04DC9 /* hacking-with-watchos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "hacking-with-watchos.pdf"; sourceTree = "<group>"; };
+		42AF883520EA8B6C00B04DC9 /* FilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		42AF883720EABB3F00B04DC9 /* SampleWaterMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWaterMark.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42AF880620EA8A0B00B04DC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42AF880020EA8A0B00B04DC9 = {
+			isa = PBXGroup;
+			children = (
+				42AF880B20EA8A0B00B04DC9 /* PDFKit */,
+				42AF880A20EA8A0B00B04DC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42AF880A20EA8A0B00B04DC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42AF880920EA8A0B00B04DC9 /* PDFKitiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42AF880B20EA8A0B00B04DC9 /* PDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				42AF881E20EA8A4500B04DC9 /* PDF */,
+				42AF880C20EA8A0B00B04DC9 /* AppDelegate.swift */,
+				42AF883520EA8B6C00B04DC9 /* FilesViewController.swift */,
+				42AF880E20EA8A0B00B04DC9 /* ViewController.swift */,
+				42AF881020EA8A0B00B04DC9 /* Main.storyboard */,
+				42AF881320EA8A0C00B04DC9 /* Assets.xcassets */,
+				42AF881520EA8A0C00B04DC9 /* LaunchScreen.storyboard */,
+				42AF881820EA8A0C00B04DC9 /* Info.plist */,
+				42AF883720EABB3F00B04DC9 /* SampleWaterMark.swift */,
+			);
+			path = PDFKit;
+			sourceTree = "<group>";
+		};
+		42AF881E20EA8A4500B04DC9 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				42AF881F20EA8A5800B04DC9 /* beyond-code.pdf */,
+				42AF882420EA8A5800B04DC9 /* hacking-with-macos.pdf */,
+				42AF882120EA8A5800B04DC9 /* hacking-with-swift.pdf */,
+				42AF882720EA8A5800B04DC9 /* hacking-with-tvos.pdf */,
+				42AF882920EA8A5800B04DC9 /* hacking-with-watchos.pdf */,
+				42AF882620EA8A5800B04DC9 /* objective-c-for-swift-developers.pdf */,
+				42AF882020EA8A5800B04DC9 /* practical-ios-10.pdf */,
+				42AF882220EA8A5800B04DC9 /* practical-ios-11.pdf */,
+				42AF882320EA8A5800B04DC9 /* pro-swift.pdf */,
+				42AF882520EA8A5800B04DC9 /* server-side-swift.pdf */,
+				42AF882820EA8A5800B04DC9 /* swift-coding-challenges.pdf */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AF880820EA8A0B00B04DC9 /* PDFKitiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AF881B20EA8A0C00B04DC9 /* Build configuration list for PBXNativeTarget "PDFKitiOS" */;
+			buildPhases = (
+				42AF880520EA8A0B00B04DC9 /* Sources */,
+				42AF880620EA8A0B00B04DC9 /* Frameworks */,
+				42AF880720EA8A0B00B04DC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFKitiOS;
+			productName = PDFKit;
+			productReference = 42AF880920EA8A0B00B04DC9 /* PDFKitiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42AF880120EA8A0B00B04DC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					42AF880820EA8A0B00B04DC9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 42AF880420EA8A0B00B04DC9 /* Build configuration list for PBXProject "PDFKitiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42AF880020EA8A0B00B04DC9;
+			productRefGroup = 42AF880A20EA8A0B00B04DC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AF880820EA8A0B00B04DC9 /* PDFKitiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42AF880720EA8A0B00B04DC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AF882E20EA8A5800B04DC9 /* pro-swift.pdf in Resources */,
+				42AF882A20EA8A5800B04DC9 /* beyond-code.pdf in Resources */,
+				42AF881720EA8A0C00B04DC9 /* LaunchScreen.storyboard in Resources */,
+				42AF882C20EA8A5800B04DC9 /* hacking-with-swift.pdf in Resources */,
+				42AF881420EA8A0C00B04DC9 /* Assets.xcassets in Resources */,
+				42AF882B20EA8A5800B04DC9 /* practical-ios-10.pdf in Resources */,
+				42AF883420EA8A5800B04DC9 /* hacking-with-watchos.pdf in Resources */,
+				42AF883320EA8A5800B04DC9 /* swift-coding-challenges.pdf in Resources */,
+				42AF883120EA8A5800B04DC9 /* objective-c-for-swift-developers.pdf in Resources */,
+				42AF883020EA8A5800B04DC9 /* server-side-swift.pdf in Resources */,
+				42AF883220EA8A5800B04DC9 /* hacking-with-tvos.pdf in Resources */,
+				42AF882F20EA8A5800B04DC9 /* hacking-with-macos.pdf in Resources */,
+				42AF882D20EA8A5800B04DC9 /* practical-ios-11.pdf in Resources */,
+				42AF881220EA8A0B00B04DC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42AF880520EA8A0B00B04DC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AF883820EABB3F00B04DC9 /* SampleWaterMark.swift in Sources */,
+				42AF880F20EA8A0B00B04DC9 /* ViewController.swift in Sources */,
+				42AF883620EA8B6C00B04DC9 /* FilesViewController.swift in Sources */,
+				42AF880D20EA8A0B00B04DC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42AF881020EA8A0B00B04DC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AF881120EA8A0B00B04DC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42AF881520EA8A0C00B04DC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AF881620EA8A0C00B04DC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42AF881920EA8A0C00B04DC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42AF881A20EA8A0C00B04DC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42AF881C20EA8A0C00B04DC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 238VZ772M6;
+				INFOPLIST_FILE = PDFKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sky.org.PDFKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42AF881D20EA8A0C00B04DC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 238VZ772M6;
+				INFOPLIST_FILE = PDFKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sky.org.PDFKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42AF880420EA8A0B00B04DC9 /* Build configuration list for PBXProject "PDFKitiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AF881920EA8A0C00B04DC9 /* Debug */,
+				42AF881A20EA8A0C00B04DC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AF881B20EA8A0C00B04DC9 /* Build configuration list for PBXNativeTarget "PDFKitiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AF881C20EA8A0C00B04DC9 /* Debug */,
+				42AF881D20EA8A0C00B04DC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42AF880120EA8A0B00B04DC9 /* Project object */;
+}
