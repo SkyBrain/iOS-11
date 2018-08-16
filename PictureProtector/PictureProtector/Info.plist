@@ -20,6 +20,8 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>App wants to use the Photo library</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This needs access to Photo Library</string>
 	<key>UILaunchStoryboardName</key>
